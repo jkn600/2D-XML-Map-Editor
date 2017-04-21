@@ -1,0 +1,36 @@
+CHANGELOG
+
+06/07/15:
+
+- set isSaved in "//Open document" to false so that the new button would still work on newly loaded projects,
+  this will remain a problem as newly loaded projects do not need to be saved before closing or replacing as
+  no changes have been made to them. Either find a way to create project files or load everything in a new window.
+
+07/07/15:
+
+- Changed the whole load/save system, adding a new menu for map specific management. No longer will the editor
+  prompt you to load a file only to tell you at the end that a corresponding tile set should have been loaded
+  first. The appropriate checks will be made while carrying out any action in the editor.
+
+TODO
+
+- Change File menu file handling to handle projects, as other menus have now been put in place for specifics,
+  such as map and tile set management.
+
+- Add more Comments
+
+08/08/15:
+
+- Put all base tile functions within a Tile class, including tile data such as tile height, rows and colums for
+  splitting the bitmap
+
+- Loading a map now properly populates the tileIndex, this gets rid of the outOfRange exception error I was
+  getting when attempting to save a loaded map that I added tiles to
+
+- The "tileIndex and mapImages" list and collection now properly clear themselves when told to do so, fixing
+  the problem that was duplicating maps upon loading onto a cleared window and saving, due to the fact that
+  even thought the window was clear the index was still holding values, overpopulating itself when saving.
+
+- Added an Undo function
+
+- Cleaned up client menu

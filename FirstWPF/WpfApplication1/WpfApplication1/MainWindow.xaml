@@ -1,0 +1,85 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ResizeMode="CanResize"
+        Loaded="Window_Loaded"
+        Title="Cyclical Editor v0.0.3" Height="480" Width="640">
+    <Grid>
+        <!-- Menu -->
+        <Menu IsMainMenu="True" Height="30" VerticalAlignment="Top" Margin="0,0,-0.4,0">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFEAD612" Offset="1"/>
+                    <GradientStop Color="#FF24D454" Offset="0.397"/>
+                    <GradientStop Color="#FF17AFDC" Offset="0.21"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="startAnew"/>
+                <!--
+                <MenuItem Header="_Load" Click="Map_Load_Click" />
+                <MenuItem Header="_Save Project" Click="projectSave" />
+                -->
+            </MenuItem>
+            <MenuItem Header="_Map">
+                <MenuItem Header="_Save Map" Click="Map_Save_Click" />
+                <MenuItem Header="_Load Map" Click="loadMap" />
+                <MenuItem Header="_Clear Map" Click="clearMap" />
+            </MenuItem>
+            <MenuItem Header="_Tiles">
+                <MenuItem Header="_Import Tile Set" Click="loadTileSet"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" Click="about_Window" />
+            </MenuItem>
+        </Menu>
+
+        <TabControl Name="tabCtrl" Grid.Column="0" Margin="0,30,10,1" Background="#FF6FCF43">
+            <TabItem Header="Game Level">
+                <Grid Name="gridLevel">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="215*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="170"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="10"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- use a ListView arranged as a WrapPanel, to be located in the right-most column of the grid.
+                        only allow the vertical scroll bar to be visible -->
+                    <ListView Name="tileList" Grid.Row="1" Grid.Column="3" 
+                              ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White">
+                        <ListView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal"></WrapPanel>
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+                    </ListView>
+
+                    <ListView Name="map" Grid.Row="1" Grid.Column="1" 
+                              ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White">
+                        <ListView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal"></WrapPanel>
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+                    </ListView>
+
+                    <Button Content="Add Tile" Grid.Column="3" HorizontalAlignment="Center" Margin="38,16,32,12" Grid.Row="2" 
+                            VerticalAlignment="Center" Width="100" Height="22" Click="btn_AddTileToMap"/>
+                    <Button Content="Undo Tile" Grid.Column="1" HorizontalAlignment="Center" Margin="365,16,137,12" Grid.Row="2" 
+                            VerticalAlignment="Center" Width="100" Height="22" Click="btn_DeleteTile" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

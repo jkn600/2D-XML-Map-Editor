@@ -1,0 +1,20 @@
+MIG ICA 1 Resubmission (v0.0.2) Patch Notes:
+
+BUG FIXES
+
+- Fixed an issue whereby attempting to load an xml file and cancelling would cause a NullReferenceException error
+
+- Fixed a bug where you couldn't import a new tileset after starting a new project
+
+
+ADDITIONS
+
+- Program now prompts the user to save their current project if it detects that any changes have been made
+  while the user attempts to start a new project or load an existing one
+
+- The Editor no longer prompts you to load a map, only to tell you at the end that the corresponding tile set
+  should have been loaded in the first place. Appropriate checks and warnings are now in place to tell you if
+  anything could go wrong with an action you are about to take.
+
+- Added a menu for map management, with the ability to load a map by itself, or clear the current map.
+

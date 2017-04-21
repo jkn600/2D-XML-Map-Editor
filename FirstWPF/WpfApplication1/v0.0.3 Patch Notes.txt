@@ -1,0 +1,16 @@
+MIG ICA 1 Resubmission (v0.0.3) Patch Notes:
+
+BUG FIXES
+
+- Fixed a bug that would cause client to crash when attempting to save a loaded file
+
+- Fixed a bug that would cause maps to duplicate when saving after clearing and loading a map
+
+ADDITIONS
+
+- The Window can now only be stretched vertically not horizontally, this is to prevent map distortion
+
+- There is now an Undo button to go back on your changes
+
+- Program now more accurately detects when changes have been made without saving and only prompts you at
+  those times to save.

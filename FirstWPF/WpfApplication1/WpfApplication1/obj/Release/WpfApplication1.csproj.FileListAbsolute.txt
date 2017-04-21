@@ -1,0 +1,42 @@
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+U:\Multimodal Interfaces\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Joshua\Desktop\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.manifest
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.application
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe.manifest
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.application
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+E:\My Documents\Uni Work\2nd Year\MIG\Multimodal_Interfaces_In_Games_N3088835_Joshua_Nsubuga\FirstWPF\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
